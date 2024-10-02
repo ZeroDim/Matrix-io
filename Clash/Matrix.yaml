@@ -93,6 +93,15 @@ proxy-groups:
     type: select
     lazy: true
     icon: https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Static.png
+    proxies: 
+      - DIRECT
+      - 自动选择
+      - 香港节点
+      - 台湾节点
+      - 日本节点
+      - 韩国节点
+      - 狮城节点
+      - 美国节点
     use:
       - matrix
     url: "https://cp.cloudflare.com/generate_204"
